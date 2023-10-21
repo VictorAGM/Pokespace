@@ -1,6 +1,8 @@
 
+CXX = x86_64-w64-mingw32-g++
+
 compilar: src/main.cpp
-	g++ src/main.cpp -o bin/Mascota -I include
+	$(CXX) src/main.cpp -o bin/Mascota -I include
 
 ejecutar: bin/Mascota
 	./bin/Mascota
