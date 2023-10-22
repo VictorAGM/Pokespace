@@ -1,12 +1,6 @@
 
-CXX = x86_64-w64-mingw32-g++
+bin/Pokefight : src/Pokefight.cpp include/*
+	c++ src/Pokefight.cpp -o bin/Pokefight -lcurses -I include
 
-compilar: src/main.cpp
-	$(CXX) src/main.cpp -o bin/Mascota -I include
-
-ejecutar: bin/Mascota
-	./bin/Mascota
-br: compilar ejecutar
-
-clean: bin/Mascota
-	rm bin/Mascota
+run : bin/Pokefight
+	./bin/Pokefight
