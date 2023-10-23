@@ -16,6 +16,10 @@ _,-'       `.     |    |  /`.   \,-'    |   \  /   |   |    \  |`.
 
                         SELECCIONAR EQUIPO (E)
                               
-                              CREDITOS (C)
+                           VER OBJETOS (O)
+
+                           VER POKEMONES (P)
+
+                             CREDITOS (C)
 
                                SALIR (S)
