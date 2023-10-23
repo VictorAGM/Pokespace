@@ -9,6 +9,8 @@ private:
     string NombreAtaque;
 public:
 
+    
+
     int RecibirDano(int salud, string NombreAtaque){
         
 
