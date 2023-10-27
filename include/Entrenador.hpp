@@ -4,15 +4,15 @@
 #include<Arma.hpp>
 
 
-class Vaca : public Dibujo, public Actualizable
+class Entrenador : public Dibujo, public Actualizable
 {
 private:
     Arma* arma;
 public:
-    Vaca() : Dibujo("Entrenador"){
+    Entrenador() : Dibujo("Entrenador"){
     }
 
-    Vaca(int x, int y) : Dibujo(x,y,"Entrenador"){
+    Entrenador(int x, int y) : Dibujo(x,y,"Entrenador"){
     }
     
     void Actualizar()
@@ -37,6 +37,6 @@ public:
     void Disparar(){
         this-> arma = arma;
     }
-    ~Vaca(){}
+    ~Entrenador(){}
 };
 

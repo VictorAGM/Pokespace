@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 
 
     Ventana ventana;
-    Vaca* vaca1 = new Vaca(0,0);
+    Entrenador* entrenador = new Entrenador(0,0);
     Enemigo* enemigo = new Enemigo(160,0);
     
 
@@ -25,12 +25,12 @@ int main(int argc, char const *argv[])
 
 
     list<Dibujo*> dibujos;
-    dibujos.push_back(vaca1);
+    dibujos.push_back(entrenador);
     dibujos.push_back(enemigo);
     dibujos.push_back(bala);
 
     list<Actualizable*> actualizables;
-    actualizables.push_back(vaca1);
+    actualizables.push_back(entrenador);
     actualizables.push_back(enemigo);
     actualizables.push_back(bala);
 
@@ -44,16 +44,16 @@ int main(int argc, char const *argv[])
             break;
        
         if(key == 'a' || key == KEY_LEFT){
-            vaca1->DesplazarIzquierda();
+            entrenador->DesplazarIzquierda();
         }
         if(key == 'd' || key == KEY_RIGHT){
-            vaca1->DesplazarDerecha();
+            entrenador->DesplazarDerecha();
         }
         if(key == 'w' || key == KEY_UP){
-            vaca1->DesplazarArriba();
+            entrenador->DesplazarArriba();
         }
         if(key == 's' || key == KEY_DOWN){
-            vaca1->DesplazarAbajo();
+            entrenador->DesplazarAbajo();
         }
         if(key == 'l'){
             arma->Disparar();
