@@ -14,12 +14,10 @@ _,-'       `.     |    |  /`.   \,-'    |   \  /   |   |    \  |`.
 
                                  MENÚ 
 
-                        SELECCIONAR EQUIPO (E)
+                         INICIAR PARTIDA  (P)
                               
                            VER OBJETOS (O)
 
-                           VER POKEMONES (P)
-
-                             CREDITOS (C)
+                           VER POKEMONES (V)
 
                                SALIR (S)
