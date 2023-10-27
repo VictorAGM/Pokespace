@@ -1,45 +1,45 @@
 # <center>POKEFIGHT</center>
 
 ## ¿De que trata?
-Pokefight es un videojuego de peleas desarrollado en C++, dónde dos equipos de tres pokemones se enfrentran entre si. Cada equipo está conformado por los siguientes pokemones:
+Pokefight es un videojuego de peleas desarrollado en C++, dónde tú serás el protagonista, deberás debilitar a los pokemones enemigos de una manera diferente de lo habitual... ¡Golpealos con pokebolas hasta que no puedan más! Una vez que los debilites lo suficiente, se rendirán y podrás pasar al siguiente nivel. Cada nivel contendrá a un jefe cada vez más poderoso, ten cuidado y no pierdas demasiadas vidas. ¡Mucha suerte!
 
-###  Equipo 1
+###  Sección 1
 -
-    + Pikachu   
+    + Pikachu (Nvl 1)  
     
     ![Pikaimg](images/Pikachu-sprite.gif)
 
-    + Charizard 
+    + Charizard (Nvl 2)
 
     ![Charizardimg](images/Charizard-Sprite.gif)
     
-    + Skarmory  
+    + Skarmory  (Nvl 3)
     ![Skarmoryimg100 ](images/Skarmory-sprite.gif)
 
 
 
-### Equipo 2
+### Sección 2
   -
-    + Gardevoir 
+    + Gardevoir (Nvl 1)
     
     ![Gardevoirimg](images/Gardevoir-Sprite.gif)
     
-    + Arcanine
+    + Arcanine (Nvl 2)
     
      ![Arcanineimg](images/Arcanine-Sprite.gif)
 
-     + Pochyena
+     + Pochyena (Nvl 3)
 
      ![Pochyena](images/Pochyena-Sprite.gif)
 
 ## ¿Cómo se juega?
 Al iniciar el juego, aparecerá las diferentes pantallas a las que podemos acceder presionando la tecla indicada. 
 
-- ***Seleccionar equipo***: En esta pantalla podremos seleccionar el equipo de pokemones con el que querramos jugar, el equipo que quede libre será el que la maquina controlará. Una vez seleccionado el equipo, el juego comenzará automáticamente. 
+- ***Iniciar partida***: En esta pantalla saldremos al campo de batalla instantaneamente, pero te recomendamos que si es la primera vez que juegas, veas las pantallas adicionales 
 
-- ***Ver objetos***: La pantalla *ver objetos* nos permitirá previsualizar los objetos disponibles en la batalla para cada equipo y sus efectos en el mismo o en el adversario ¡Son limitados, úsalos con sabiduria!
+- ***Ver objetos***: La pantalla *ver objetos* nos permitirá previsualizar los objetos disponibles en la batalla, si deseas avanzar con facilidad a través de los niveles, es muy importante que conozcas a estos pequeños aliados 
 
-- ***Ver Pokemones***: Si quieres conocer a tu equipo, estas en el lugar indicado. Aquí podrás ver las estadísticas de tus pokemones y sus habilidades. Un buen entrenador debe saber con quien trabaja.
+- ***Ver Pokemones***: Aquí conoceras a los enemigos con los que te enfrentarás para que puedas desarrollar una estrategia previa al combate. Todo lo que debas saber acerca de ellos podrás encontrarlo en esta pantalla. 
 
 - ***Salir***: ¡Hasta pronto!
 
