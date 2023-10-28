@@ -1,0 +1,13 @@
+class Actualizable 
+class Dibujo
+class Enemigo
+class Entrenador
+class Pokebola
+class Ventana
+
+Actualizable<-- Ventana
+Actualizable<-- Dibujo
+Dibujo<-- Enemigo
+Dibujo<-- Pokebola
+Dibujo<-- Entrenador
+Pokebola o-- Entrenador
